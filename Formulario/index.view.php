@@ -9,7 +9,7 @@
 		<form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>" method="post">
 			<input type="text" id="nombre" name="nombre" class="form-control" placeholder="Nombre:" value="<?php if(!$enviado && isset($nombre)) echo $nombre?>">
 			<input type="text" id="correo" name="correo" class="form-control" placeholder="Correo:" value="<?php if(!$enviado && isset($correo)) echo $correo?>">
-			<textarea name="mensaje" class="form-control" id="mensaje" placeholder="Mensaje:"<?php if(!$enviado && isset($mensaje)) echo $mensaje?></textarea>
+			<textarea name="mensaje" class="form-control" id="mensaje" placeholder="Mensaje:"><?php if(!$enviado && isset($mensaje)) echo $mensaje?></textarea>
 <!-------------------- PHP -------------->
 			<?php if (!empty($errores)): ?>
 				<div class="alert error">
