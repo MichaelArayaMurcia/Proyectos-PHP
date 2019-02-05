@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 0;}
+
+body {
+	font-size: 16px;
+	font-family: 'Slabo 27px',serif;
+	background: #232931;
+	color: #fff;}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Slabo 27px', serif;
+	font-weight: normal;}
+
+a {
+	text-decoration: none;
+	color: #fff;}
+
+a:hover {text-decoration: underline;}
+
+.contenedor {
+	max-width: 1000px;
+	width: 90%;
+	margin: auto;}
+/*--------- Formulario ------------------*/
+	.formulario .submit {
+		display: inline-block;
+		text-align: center;
+		color: #fff;
+		padding: 15px 20px;
+		border-radius: 50px;
+		border: 1px solid rgba(255,255,255,.2);
+		background: none;
+		cursor: pointer;}
+
+	.formulario textarea:focus {border:1px solid rgba(255,255,255, .5);}
+
+	.formulario textarea {
+		min-height: 76px;
+		max-height: 150px;
+		max-width: 100%;
+		min-width: 100%;}
+	.formulario input[type="text"],
+	.formulario textarea {
+		padding: 10px;
+		background: none;
+		font-family: 'Slabo 27px', serif;
+		border: 1px solid rgba(255,255,255, .2);}
+
+	.formulario input[type="text"],
+	.formulario input[type="file"],
+	.formulario textarea {
+		width: 100%;
+		margin-bottom: 30px;
+		color: #fff;}
+
+	.formulario .error {
+		border: 1px solid red;
+		padding: 30px;
+		margin-bottom: 30px;}
+
+	.formulario label {
+		display: block;
+		margin-bottom: 10px;}
+
+	.formulario {
+		max-width: 500px;
+		width: 90%;
+		margin: auto;
+		margin-bottom: 30px;}
+/*--------- Paginacion ------------------*/
+	.paginacion .derecha .fa {margin-left: 10px;}
+
+	.paginacion .izquierda .fa {margin-right: 10px;}
+
+	.paginacion a:hover {
+		border: 1px solid #fff;
+		text-decoration: none;}
+
+	.paginacion a {
+		display: inline-block;
+		padding: 15px 20px;
+		border-radius: 50px;
+		border: 1px solid rgba(255,255,255,.2);}
+
+	.paginacion {
+		width: 100%;
+		margin-bottom: 30px;
+		overflow: hidden;}
+/*--------- Footer ----------------------*/
+	footer .copyright {
+		text-align: center;
+		color: rgba(255,255,255,.5);
+		font-size: 16px;
+		padding: 15px 0;
+
+	}
+/*--------- Regresar --------------------*/
+	.regresar:hover {
+		border: 1px solid #fff;
+		text-decoration: none;}
+	.regresar {
+		padding: 5px 10px;
+		margin-bottom: 30px;
+		display: inline-block;
+		border-radius: 50px;
+		font-size: 16px;
+		border: 1px solid rgba(255,255,255,.2);}
+	.foto .texto {
+		max-width: 500px;
+		margin-bottom: 30px;}
+	.foto img {
+		width: 100%;
+		vertical-align: top;}	
+	.foto {
+		width: 100%;
+		margin: auto;
+		max-width: 500px;
+		text-align: center;}
+/*--------- thumb -----------------------*/
+	.thumb img {
+		vertical-align: top;
+		width: 100%;
+		height: 100px;}
+	.thumb a {display: block;}
+	.thumb:hover {outline: 5px solid rgba(255,255,255,1);}
+	.thumb {
+		width: 22%;
+		margin-bottom: 30px;
+		outline: 5px solid rgba(255,255,255,0);
+		box-shadow: 2px 2px 3px rgba(0,0,0,.8);
+		transition: all .3s ease;}
+	.fotos .contenedor {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;}
+	header {
+		margin: 40px;
+		font-size: 20px;
+		text-align: center;}
+
+/*--------- contenedor ------------------*/
+	.derecha {float: right;}
+	.izquierda {float: left;}
+	.contenedor {
+		max-width: 1000px;
+		width: 90%;
+		margin: auto;}
+	a:hover {text-decoration: underline;}
